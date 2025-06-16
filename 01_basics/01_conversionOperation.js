@@ -1,0 +1,79 @@
+let score = "11xyz"
+
+//console.log(typeof score); // string 
+//console.log(typeof(score)); // string
+
+let valueInNumber = Number(score)
+//console.log(typeof valueInNumber); // number
+//console.log(valueInNumber); // NaN => Not a Number
+
+//for eg : let score = null
+//console.log(typeof score); // object
+//console.log(valueInNumber);//0
+
+//for eg : let score = undefined
+//console.log(typeof score); // undefined
+//console.log(valueInNumber);// NaN
+
+//for eg : let score = true
+//console.log(typeof score); // boolean
+//console.log(valueInNumber);// 1
+
+// "33" => 33
+// "11xyz" => NaN
+//  true => 1; false => 0
+
+let isLoggedIn = "shreya"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "shreya" => true
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// *********************** Operations ***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " hitesh"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
