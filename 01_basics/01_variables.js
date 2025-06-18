@@ -9,7 +9,7 @@ accountEmail = "sm@sm.com"
 accountPassword = "9999"
 accountCity = "pune"
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+// console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
 
 /*
  prefer not to use var
