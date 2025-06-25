@@ -13,46 +13,44 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-
+// child function can access parent variable
 function one(){
-    const username = "hitesh"
+    const username = "shreya"
 
     function two(){
         const website = "youtube"
-        console.log(username);
+        console.log(username);// shreya
     }
     // console.log(website);
 
-     two()
+     two() // shreya
 
 }
-
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "shreya"
+    if (username === "shreya") {
         const website = " youtube"
-        // console.log(username + website);
+        // console.log(username + website);// shreya youtube
     }
-    // console.log(website);
+    // console.log(website);// error
 }
-
-// console.log(username);
+// console.log(username);// error
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
+// here are 2 types of way to declare functions 
 
-
-console.log(addone(5))
-
+//1) only declaration 
+console.log(addone(5))//6
 function addone(num){
     return num + 1
 }
 
 
-
-addTwo(5)
+//2) declaration with holding in variable
+addTwo(5) // error
 const addTwo = function(num){
     return num + 2
 }
