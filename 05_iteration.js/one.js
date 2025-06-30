@@ -14,6 +14,7 @@ for (let i = 1; i <= 3; i++) {
    for (let j = 1; j <= 3; j++) {
     //console.log(`Inner loop value ${j} and inner loop ${i}`);
     //console.log(i + '*' + j + ' = ' + i*j );
+  }
 }
 
 let myArray = ["flash", "batman", "superman"]
@@ -41,5 +42,4 @@ for (let index = 1; index <= 20; index++) {
         continue;
     }
    //console.log(`Value of i is ${index}`);
-    
 }
